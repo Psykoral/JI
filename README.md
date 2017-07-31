@@ -1,7 +1,7 @@
-FlippyUI - grunt-starter-kit
+FlippyUI - Jenkins & Github integration builds
 ====
 Build Status:
-- master: [![Build Status](https://travis-ci.org/Psykoral/grunt-starter-kit.svg?branch=master)](https://travis-ci.org/Psykoral/grunt-starter-kit)
+- master: [![Build Status](http://build.flippydisk.com:8080/buildStatus/icon?job=Github-Auto-Build)](http://build.flippydisk.com:8080/job/Github-Auto-Build/)
 
 Project template built from FlippyUI. grunt-starter-kit includes:
 
@@ -10,6 +10,33 @@ Project template built from FlippyUI. grunt-starter-kit includes:
 - bower.json and package.json for common dependencies.
 - AMD Javascript sources specific to grunt-starter-kit.
 - Reference Design Library: http://flippydisk.com/
+
+## Integration test steps
+* Fork the JI repo, not a local clone (this is for easy pull request references)
+	![screenshot 2017-07-31 12 18 42](https://user-images.githubusercontent.com/1676422/28794270-99f4c756-75ea-11e7-9b34-3e2ed711b8e3.png)
+* Create a new folder on your local, and init a git repo 
+
+		git init
+		
+* Add a reference to your repo as the `origin` and the parent repo as the `upstream`
+		
+		git remote add upstream https://github.com/Psykoral/JI.git
+		git remote add origin https://github.com/{yourRepo}/JI.git
+
+* Grab the files from the `upstream`
+		
+		git pull upstream master
+		
+* Make a local change to any file, doesn't matter which one or how big the change.
+* Commit it
+
+		git commit -m "Testing Jenkins and Github PR integration"
+		
+* Push it to your `origin`
+
+		git push origin master
+		
+* [Create a Pull Request](https://github.com/Psykoral/JI/compare) from your repo to the `upstream` repo
 
 ## Local Development
 
