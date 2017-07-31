@@ -60,6 +60,10 @@ Project template built from FlippyUI. grunt-starter-kit includes:
 
 ![screenshot 2017-07-31 14 07 25](https://user-images.githubusercontent.com/1676422/28798546-a9b063b2-75f9-11e7-97d1-5e3e387c8ca8.png)
 
+* For simple updates that shouldn't affect a build, you can skip the auto PR build by putting `[skip ci]` in the PR comment.
+
+![screenshot 2017-07-31 14 12 34](https://user-images.githubusercontent.com/1676422/28798780-649c024e-75fa-11e7-9aff-5a603c1dba61.png)
+
 ## Local Development
 
 ### Prerequisites
