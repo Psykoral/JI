@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en" {{#if flippyUI.direction}} dir="{{flippyUI.direction}}" {{/if}}>
+    {{> dochead}}
+    <body id="home" data-seed-details>
+	    <header>
+		    <figure>
+			    <img width="300" alt="" src="./img/logo.png">
+			    <figcaption></figcaption>
+		    </figure>
+	    </header>
+	    <aside>
+		    <menu>
+                <section>
+                    <details>
+                        <summary>
+                            FlippyUI modules
+                        </summary>
+                    </details>
+                    <nav>
+                        <ul>
+                            <li>
+                                <a href="https://github.com/Psykoral" target="_blank">Github</a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/Psykoral/pnote" target="_blank">Polish Notation</a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/Psykoral/grunt-starter-kit" target="_blank">Grunt Starer Kit</a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/Psykoral/modal-carousel" target="_blank">Modal carousel</a>
+                            </li>
+                            <li>
+                                <a href="https://travis-ci.org/Psykoral/" target="_blank">Travis CI</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </section>
+				<section>
+				    <details>
+					    <summary>
+						    Network
+					    </summary>
+				    </details>
+				    <nav>
+					    <ul>
+						    <li>
+							    <a href="http://www.psykoral.com" target="_blank">Psykoral</a>
+						    </li>
+						    <li>
+							    <a href="http://www.thefabled.net" target="_blank">&lt;The Fabled&gt;</a>
+						    </li>
+						    <li>
+							    <a href="http://www.jimisan.com" target="_blank">Jimisan Sushi</a>
+						    </li>
+						    <li>
+							    <a href="http://www.ruralmeanderings.com" target="_blank">Rural Meanderings</a>
+						    </li>
+						    <li>
+							    <a href="http://www.codingangry.com" target="_blank">Coding Angry</a>
+						    </li>
+						    <li>
+							    <a href="http://www.jimanderin.com/" target="_blank">Jim &amp; Erin get married</a>
+						    </li>
+					    </ul>
+				    </nav>
+			    </section>
+			    <section>
+				    <details>
+					    <summary>
+						    Services
+					    </summary>
+				    </details>
+				    <nav>
+					    <ul>
+						    <li>
+							    <a href="https://github.com/Psykoral" target="_blank">Github</a>
+						    </li>
+						    <li>
+							    <a href="http://flippydisk.com/pnote" target="_blank">Polish Notation</a>
+						    </li>
+						    <li>
+							    <a href="http://flippydisk.com/" target="_blank">Grunt Starer Kit</a>
+						    </li>
+                            <li>
+                                <a href="http://flippydisk.com/modal-carousel" target="_blank">Modal carousel</a>
+                            </li>
+					    </ul>
+				    </nav>
+			    </section>
+		    </menu>
+		    <main>
+			    {{> body}}
+		    </main>
+	    </aside>
+        {{{js scripts}}}
+    </body>
+</html>

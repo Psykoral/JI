@@ -1,0 +1,7 @@
+host: 'localhost'
+port: 80
+livereload: 35729
+dist: 'dist'
+src: 'src'
+temp: '.tmp'
+report: 'tests/report'
