@@ -17,6 +17,6 @@
 	}
 })();
 
-require(['demo', 'fail'], function () {
+require(['demo'], function () {
 	'use strict';
 });

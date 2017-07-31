@@ -38,6 +38,22 @@ Project template built from FlippyUI. grunt-starter-kit includes:
 		
 * [Create a Pull Request](https://github.com/Psykoral/JI/compare) from your repo to the `upstream` repo
 
+![screenshot 2017-07-31 12 35 01](https://user-images.githubusercontent.com/1676422/28794880-c19e08a6-75ec-11e7-8519-e87074cb0934.png)
+
+* Watch Github connect to Jenkins to start a build, and see the Jenkins server in the `details` link
+
+![screenshot 2017-07-31 12 36 58](https://user-images.githubusercontent.com/1676422/28797421-1781602a-75f6-11e7-9d99-e96225eed8ba.png)
+
+![screenshot 2017-07-31 13 39 51](https://user-images.githubusercontent.com/1676422/28797491-5a2be530-75f6-11e7-8fe4-c47dcb318a8f.png)
+
+* Failures are returned: 
+
+![screenshot 2017-07-31 13 44 30](https://user-images.githubusercontent.com/1676422/28797512-6fde8fa4-75f6-11e7-9c3e-9ac82a79efb8.png)
+
+* Successful builds are returned:
+
+![screenshot 2017-07-31 13 39 15](https://user-images.githubusercontent.com/1676422/28797466-445ba9de-75f6-11e7-833b-6e63fdac8226.png)
+
 ## Local Development
 
 ### Prerequisites
@@ -80,9 +96,9 @@ The distribution package is the end result of building this project:
 
     dist/
     ├── css/
-       ├── grunt-starter-kit.css
+       ├── jenkins-integration.css
     ├── js/
-       ├── grunt-starter-kit.js
+       ├── jenkins-integration.js
 
 Community
 -------
