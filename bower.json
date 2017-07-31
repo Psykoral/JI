@@ -1,6 +1,6 @@
 {
-	"name": "grunt-starter-kit",
-	"version": "1.0.1",
+	"name": "jenkins-integration",
+	"version": "1.0.0",
 	"main": "src/js/main.js",
 	"ignore": [
 		"**/.*",
@@ -9,7 +9,7 @@
 		"tests"
 	],
 	"dependencies": {
-		"requirejs": "^2.0.0",
+		"requirejs": "~2.1.8",
 		"jquery": "^2.0.0",
 		"canjs": "^2.3.1",
 		"almond": "^0.2.5",
