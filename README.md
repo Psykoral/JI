@@ -45,6 +45,7 @@ Project template built from FlippyUI. grunt-starter-kit includes:
 ![screenshot 2017-07-31 12 36 58](https://user-images.githubusercontent.com/1676422/28797421-1781602a-75f6-11e7-9d99-e96225eed8ba.png)
 
 * [Jenkins](http://build.flippydisk.com:8080), user: `tester`, pass: `JenkinsTester`
+
 ![screenshot 2017-07-31 13 39 51](https://user-images.githubusercontent.com/1676422/28797491-5a2be530-75f6-11e7-8fe4-c47dcb318a8f.png)
 
 * Failures are returned: 
@@ -56,6 +57,8 @@ Project template built from FlippyUI. grunt-starter-kit includes:
 ![screenshot 2017-07-31 13 39 15](https://user-images.githubusercontent.com/1676422/28797466-445ba9de-75f6-11e7-833b-6e63fdac8226.png)
 
 * After a merge, [the regular build job](http://build.flippydisk.com:8080/job/Github-Auto-Build/) should run.
+
+![screenshot 2017-07-31 14 07 25](https://user-images.githubusercontent.com/1676422/28798546-a9b063b2-75f9-11e7-97d1-5e3e387c8ca8.png)
 
 ## Local Development
 
